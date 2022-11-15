@@ -47,11 +47,11 @@ public class Utils extends BasePage {
         select.selectByIndex(num);
     }
 
-    public void waitForElementToBeVisible(By by, int duration) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(duration));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+//    public void waitForElementToBeVisible(By by, int duration) {
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(duration));
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
 
-    }
+    //}
     public void WaitForElementToBeClickable(By by,int duration) {
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(duration));
         wait.until(ExpectedConditions.elementToBeClickable(by));

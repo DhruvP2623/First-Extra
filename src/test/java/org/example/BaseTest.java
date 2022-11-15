@@ -20,9 +20,9 @@ public class BaseTest extends Utils
         // driver.get command is used for to open an Url and it will wait till whole page gets loaded
         driver.get("https://demo.nopcommerce.com/");
     }
-    @AfterMethod
-    public void CloseBroswer()  // to close the browser
-    {
-        driver.close();
-    }
+//    @AfterMethod
+//    public void CloseBroswer()  // to close the browser
+//    {
+//        driver.close();
+//    }
 }
